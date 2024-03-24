@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>EcoSnap</title>
+	<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+	<link rel="stylesheet" th:href="@{/css/myStyle.css}">
+</head>
+<body class="bg-light">
+	<header>
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<div class="NavItems container-fluid">
+				<img class="Logo" width="50" height="50" src="../img/Logo.png" alt="more"/>
+				<a class="nombre navbar-brand" href="#"><b>EcoSnap</b></a>
+				<button class="border-0 navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<img id="Icono" width="70" height="60" src="../img/Icono_White.png" alt="more"/>
+				</button>
+				<div class="NavInterno collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="home nav-link active" aria-current="page" href="#Caracteristicas">PRODUCTO</a>
+						</li>
+						<li class="nav-item">
+							<a class="link nav-link" href="#Mercado">MERCADO</a>
+						</li>
+						<li class="nav-item">
+							<a class="link nav-link" href="#Modelo">MODELO DE NEGOCIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="link nav-link" href="#HojaRuta">DESARROLLO</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<button class="Bott btn btn-outline-light" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<!--CONTENIDO-->
+	<div class="row bg rounded-5">
+		<div class="col-1">
+			
+		</div>
+		<div class="col-5 d-flex justify-content-center align-items-center text-start">
+			<div class="CuadroPresentacion container">
+				<h1 id="Presentacion">
+					Simulador E_Commerce Revolucionario Desarrollado en Godot Engine
+				</h1>
+				<img class="mt-3 mb-3" id="Icono" width="300" height="5" src="../img/raya.png" alt="more"/>
+				<br>
+				<h1 id="SubPresentacion">
+					Capacitando a Emprendedores para el <b>Éxito Digital</b>
+				</h1>
+				<br>
+				<div class="container text-end">
+					<form  class="Form d-flex" method="post">
+						<a th:href="@{/downloadDocum}" class="bt btn btn-lg"><b>DOCUMENTACIÓN</b></a>
+						<img class="DocDesc" width="40" height="45" src="../img/Ico_Desc.png" alt="more"/>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<br id="Caracteristicas">
+	<div  class="Prod mt-3 row">
+		<div class="container mt-5 text-center">
+			<h1 class="Producto">
+				<b>POR QUÉ ECOSNAP</b>
+			</h1>
+			<br>
+			<div class="row">
+				<div class="col-1 text-center mt-3">
+				</div>
+				<div class="Necesidad col-5 text-center mt-3">
+					<img width="230" height="200" src="../img/Necesidad.jpg" alt="more"/>
+					<div>
+						<h2>NECESIDA ESPECÍFICA</h2>
+						<br>
+						<div class="container">
+							<p class="Text">
+								Los nuevos empresarios se enfrentan a un paisaje digital abrumador, con desafíos que van desde la 
+								selección de productos y la optimización de la tienda en línea hasta la ejecución de estrategias 
+								de marketing digital efectivas. El miedo a cometer errores costosos y la falta de experiencia práctica 
+								pueden desalentar incluso a los más prometedores. Aquí es donde EcoSnap marca la diferencia. Al abordar 
+								directamente la brecha en la educación práctica del e-commerce, EcoSnap ofrece una plataformadinámica 
+								donde los empresarios pueden sumergirse en escenarios de comercio electrónico simulado.
+							</p>
+						</div>
+						<br>
+					</div>
+				</div>
+				<div class="Potencial col-5 text-center mt-3">
+					<img class="mt-2" width="220" height="200" src="../img/Potencial.jpg" alt="more"/>
+					<div>
+						<h2>TAMAÑO Y POTENCIAL</h2>
+						<br>
+						<div class="container">
+							<p class="Text">
+								En el acelerado mundo del comercio electrónico, EcoSnap surge como una solución innovadora 
+								diseñada para empoderar a los pequeños empresarios con las herramientas y conocimientos necesarios
+							 	para prosperar en el e-commerce. EcoSnap no es solo un software; es un portal hacia la maestría
+							  	en comercio electrónico, ofreciendo un entorno de simulación realista donde los empresarios 
+							  	pueden experimentar, aprender y crecer sin los riesgos financieros típicos de las inauguraciones, 
+							  	asegurando el exito posterior en la vida real.
+							</p>
+						</div>
+						<br>
+					</div>
+				</div>
+				<div class="col-1 text-center mt-3">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<br id="Mercado">
+	<br>
+	<div class="Merc">
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="Mc container mt-5">
+			<br>
+			<h1 class="Mercado text-center">
+				<b>MERCADO ACTUAL</b>
+			</h1>
+			<div class="Imag row">
+				<div class="col-1">					
+				</div>
+				<div class="CI1 col-2">
+					<img class="mt-3" width="220" height="200" src="../img/Ascendente.png" alt="more"/>
+					<h3>E_Commerce continua su trayectoria ascendente.</h3>
+				</div>
+				<div class="CI2 col-2 ">
+					<img class="mt-3" width="220" height="175" src="../img/global.png" alt="more"/>
+					<br>
+					<br>
+					<h3>Consolidándose como columna vertebral del comercio global.</h3>
+				</div>
+				<div class="CI3 col-2">
+					<img class="Img3 mt-3 text-center" width="290" height="175" src="../img/Recaudacion.png" alt="more"/>
+					<br>
+					<br>
+					<h3>Se estima alcanzar los 7.4 billones de dólares para 2025.</h3>
+				</div>
+				<div class="CI4 col-2">
+					<img class="mt-3" width="220" height="200" src="../img/Ventas.png" alt="more"/>
+					<h3>Reflejando expansión en términos de volumen de ventas.</h3>
+				</div>
+				<div class="CI5 col-2">
+					<img class="mt-3" width="220" height="200" src="../img/Servicio.png" alt="more"/>
+					<h3>Diversificación de productos y servicios ofrecidos en línea.</h3>
+				</div>
+				<div class="col-1">					
+				</div>
+			</div>
+			<br>
+			<div class="Argumento row">
+				<div class="TextArg col-9">
+					<p>
+						<b class="EcoSnap">EcoSnap</b> emerge ante este escenario como una solución oportuna y relevante, diseñada para empoderar a los nuevos 
+						empresarios con las herramientas y conocimientos necesarios para navegar con éxito en el vasto océano del e-commerce. 
+						Al ofrecer un entorno de simulación interactivo y realista, EcoSnap permite a los usuarios experimentar el ciclo 
+						de vida completo de una tienda en línea, desde la conceptualización y el lanzamiento hasta la gestión diaria y la 
+						optimización. En un momento en que el e-commerce se está convirtiendo en una necesidad más 
+						que en una opción, EcoSnap se posiciona como una herramienta educativa esencial para cualquier emprendedor que desee 
+						dejar su huella en el comercio digital.
+					</p>
+				</div>
+				<div class="col-2">
+					<img class="LogoArg" width="270" height="250" src="../img/Logo.png" alt="more"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<br id="Modelo">
+	<br>
+	<div class="TodoModelo">
+		<div class="ModelNeg container mt-5 text-center">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1 class="Modelo">
+				<b>MODELO DE NEGOCIO DE ECOSNAP</b>
+			</h1>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="row">
+				<div class="ColGen Col1 col-4">
+					<div class="ImagenE">
+						<img class="Imagn" width="250" height="200" src="../img/Estructura.webp" alt="more"/>
+					</div>
+					<div class="Enunciado">
+						<h3>Estructura de Precios</h3>
+					</div>
+					<p>
+						EcoSnap adoptará un modelo de suscripción mensual para proporcionar a los usuarios acceso completo 
+						a la plataforma de simulación de e-commerce. La suscripción estándar mensual se fijará en $30, ofreciendo 
+						a los usuarios una experiencia completa con acceso a todas las funcionalidades, incluyendo simulaciones, 
+						herramientas de análisis de mercado, y soporte continuo.
+                        Para fomentar compromisos a largo plazo y proporcionar un mayor valor a nuestros usuarios, EcoSnap ofrecerá 
+                        un descuento significativo para las suscripciones anuales. Los usuarios que opten por el plan anual tendrán 
+                        un descuento del 20%, pagando $288 al año, lo que equivale a $24 mensuales. Este incentivo no solo aumenta 
+                        la retención de clientes, sino que también mejora la previsibilidad de nuestros ingresos. 
+					</p>
+				</div>
+				<div class="ColGen Col2 col-4">
+					<div class="ImagenE">
+						<img class="Imagn" width="250" height="200" src="../img/Generacion.jpg" alt="more"/>
+					</div>
+					<div class="Enunciado">
+						<h3>Generación de Ingresos</h3>
+					</div>
+					<p>
+						El modelo de suscripción mensual con opción anual descuenta garantiza un flujo de ingresos recurrente 
+						y sostenible para EcoSnap. Este modelo se beneficia de la naturaleza escalable de las plataformas digitales, 
+						permitiendo atender a un número ilimitado de usuarios sin un aumento significativo en los costos operativos.
+						<br> 
+						Además, la estructura de suscripción fomenta la mejora y actualización constantes de la plataforma, lo que 
+						a su vez mejora la satisfacción y retención del cliente, creando un ciclo positivo de crecimiento y 
+						estabilidad financiera.
+					</p>
+				</div>
+				<div class="ColGen Col3 col-4">
+					<div class="ImagenE">
+						<img class="Imagn" width="250" height="200" src="../img/Proyeccion.jpg" alt="more"/>
+					</div>
+					<div class="Enunciado">
+						<h3>Proyección Financiera</h3>
+					</div>
+					<p>
+						Basándonos en un análisis de mercado y una evaluación conservadora de la adopción de usuarios, EcoSnap proyecta 
+						alcanzar una base de 1,000 suscriptores activos en el primer año, generando ingresos anuales de aproximadamente 
+						$288,000 con la estructura de precios actual. Estimamos un crecimiento del 30% en la base de suscriptores en los 
+						años siguientes, impulsado por el marketing, el boca a boca y las mejoras continuas de la plataforma.
+						Estas proyecciones no incluyen ingresos adicionales que podrían generarse a través de asociaciones estratégicas, 
+						publicidad en la plataforma o la introducción de servicios Premium adicionales. Con inversiones estratégicas en 
+						marketing y desarrollo de productos, esperamos acelerar el crecimiento de la base de usuarios y, por lo tanto, aumentar 
+						los ingresos de manera significativa en los años posteriores.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<br id="HojaRuta">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="HojaRuta">
+		<br>
+		<br>
+		<div class="Fases">
+			<div class="container mt-5 text-center">
+				<h1 class="Hoj">
+					<b>HOJA DE RUTA DE DESARROLLO PARA ECOSNAP</b>
+				</h1>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div class="row">
+					<div class="col-1">
+						<a class="btn" id="Bott1"><b>&larr;</b></a>
+					</div>
+					<div class="ColFase1 col-10">
+						<div class="DescripFase1 text-justify">
+							<p></p>
+						</div>
+						<div class="ImagenFase1">
+						</div>
+					</div>
+					<div class="col-1">
+						<a class="btn" id="Bott2"><b>&rarr;</b></a>
+					</div>
+					<form  class="Form2 d-flex" method="post">
+						<a th:href="@{/downloadHoja}" class="DescFases btn btn-lg"></a>
+					</form>
+					<h4 class="DescInfor"><b>DESCARGAR INFORMACIÓN</b></h4>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+	</div>
+	
+	<br id="Miembros">
+	<br>
+	<div class="Miembros bg-light">
+		<br>
+		<br>
+		<div class="container mt-5 text-center">
+			<h1 class="Miemb">
+				<b>MIEMBROS DEL EQUIPO</b>
+			</h1>
+			<br>
+			<br>
+			<div class="row">
+				<div class="col-4 d-flex justify-content-center align-items-center mt-4 mb-4">
+					<div class="card" style="width: 30rem;">
+						<img src="../img/Foto1.jpeg" class="ImagenCard card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title">José Luis Domínguez Echevarria</h3>
+							<p class="card-text">Desarrollador
+							</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">An item</li>
+							<li class="list-group-item">A second item</li>
+							<li class="list-group-item">A third item</li>
+						</ul>
+						<div class="card-body">
+							<a href="#" class="card-link">Card link</a>
+							<a href="#" class="card-link">Another link</a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-4 d-flex justify-content-center align-items-center mt-4 mb-4">
+					<div class="card" style="width: 30rem;">
+						<img src="../img/Desarrollo.jpg" class="ImagenCard card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title">Adrian Rodas Cueto</h3>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of
+								the card's content.
+							</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">An item</li>
+							<li class="list-group-item">A second item</li>
+							<li class="list-group-item">A third item</li>
+						</ul>
+						<div class="card-body">
+							<a href="#" class="card-link">Card link</a>
+							<a href="#" class="card-link">Another link</a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-4 d-flex justify-content-center align-items-center mt-4 mb-4">
+					<div class="card" style="width: 30rem;">
+						<img src="../img/Desarrollo.jpg" class="ImagenCard card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title">Adrian Rodas Cueto</h3>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of
+								the card's content.
+							</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">An item</li>
+							<li class="list-group-item">A second item</li>
+							<li class="list-group-item">A third item</li>
+						</ul>
+						<div class="card-body">
+							<a href="#" class="card-link">Card link</a>
+							<a href="#" class="card-link">Another link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+	</div>
+	
+	<!--FOOTER-->
+	<footer class="Fotter text-center text-align bg-secondary">
+		<br>
+		<p>Copyright ArthasDEV &copy; 2023</p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<!--<script type="text/javascript" th:src="@{/js/bootstrap.bundle.min.js}"></script>-->
+		<script type="text/javascript" th:src="@{/js/popper.min.js}"></script>
+		<script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
+		<script type="text/javascript" th:src="@{/js/myScript.js}"></script>
+		
+		<script>
+			const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+			const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+		</script>
+	</footer>
+</body>
+</html>

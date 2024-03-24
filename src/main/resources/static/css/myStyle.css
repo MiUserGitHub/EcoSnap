@@ -1,0 +1,437 @@
+.NavItems{
+	position: relative;
+	right: -30px;
+}
+.Bott{
+	position: relative;
+	left: -80px;
+}
+.NavInterno{
+	position: relative;
+	right: -30px;
+	bottom: -5px;
+}
+.bg {
+	border-bottom-left-radius: 40%;
+    
+    background-image: url("../img/C.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.CuadroPresentacion{
+	position: relative;
+ 	top: -50px;
+}
+.navbar{
+	background-color: rgb(0, 0, 0, 0.2);
+	transition: background-color 0.6s;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.fondo-cambiado1 {
+    background-color: rgb(0, 0, 0, 0.9);
+}
+.fondo-cambiado2 {
+    background-color: rgb(0, 0, 0);
+}
+.Imag img{
+	border-bottom-left-radius: 40%;
+}
+.nombre, .home, .link, .drop{
+	color: rgb(255, 255, 255);
+	transition: color 0.5s;
+}
+.nombre{
+	text-decoration: none;
+	font-size: 30px;
+}
+.nombre:hover{
+	color: rgb(255, 255, 255);
+}
+.drop:focus{
+	color: rgb(69, 242, 252);
+}
+.link:hover, .home:hover, .drop:hover{
+	text-decoration: none;
+	color: rgb(69, 242, 252);
+}
+.elemento-cambiado-a{ 	
+	color: rgb(255, 255, 255);
+}
+
+.Form{
+	color: white;
+	width: 260px;
+	border: 2px solid rgb(255, 255, 255);
+	position: relative;
+	right: -170px;
+	background-color: rgb(0, 0, 0, 0.1);
+  	transition: background-color 0.7s;
+  	box-shadow: 0 10px 20px rgb(0, 0, 0), 0 6px 6px rgb(0, 0, 0);
+ 	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+}
+.Form:hover{
+	border: 2px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255, 0.5);
+	color: rgb(0, 0, 0);
+}
+.DocDesc{
+	position: relative;	
+	left: -10px;
+}
+
+.Prod{
+	position: relative;
+	top: -140px;
+	transition: top 0.5s;
+}
+.Producto{
+	color: transparent;
+	transition: color 0.5s;
+}
+.Producto_Desp{
+	color: black;
+}
+.DesplazarProd{
+	position: relative;
+	top: 30px;
+}
+.Mercado{
+	color: transparent;
+	transition: color 0.5s;
+}
+.Mercado_Desp{
+	color: black;
+}
+.drp{
+	background-color: rgb(0, 0, 0, 0.7);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.drp li a{
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: rgb(255, 255, 255);
+	transition: color 0.7s;
+}
+.drp li a:hover{
+	background-color: rgb(0, 0, 0, 0.6);
+	color: rgb(69, 242, 252);
+}
+.card{
+	background-color: rgb(192, 192, 192, 0.5);
+}
+.Necesidad{
+	z-index: 1;
+	margin-left: -40px;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 10px 20px rgb(192, 192, 192), 0 6px 6px rgb(192, 192, 192);
+}
+.Potencial{
+	z-index: 1;
+	margin-left: 70px;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 10px 20px rgb(192, 192, 192), 0 6px 6px rgb(192, 192, 192);
+}
+.Merc{
+	z-index: 0;
+	position: relative;
+	top: -130px;
+	border-top-right-radius: 40%;
+	background-image: linear-gradient(180deg, rgb(227, 227, 227), #FBFBFB );
+}
+.Mc{
+	position: relative;
+	top: -130px;
+	transition: top 0.5s;
+}
+.McDesp{
+	position: relative;
+	top: 20px;
+}
+.Imag h3{
+	text-align: center;
+}
+.Img3{
+	position: relative;
+	left: -45px;
+}
+.Text{
+	font-size: large;
+	text-align: justify;
+}
+.Imag{
+	position: relative;
+ 	bottom: -40px;
+}
+.Argumento{
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	position: relative;
+ 	bottom: -50px;
+ 	z-index: 1;
+	background-color: transparent;
+	transition: background-color 0.5s;
+}
+.ArgumentoDesp{
+	background-color: rgb(192, 192, 192);
+	box-shadow: 0 10px 20px rgb(221, 221, 221), 0 6px 6px rgb(192, 192, 192);
+}
+.TextArg{
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	text-align: justify;
+}
+.EcoSnap{
+	font-size: 25px;
+}
+.LogoArg{
+	position: relative;
+ 	top: -5px;
+}
+.bt{
+	position: relative;
+	color: rgb(255, 255, 255);
+}
+
+.CI1{
+	margin-left: -50px;
+	margin-right: 20px;
+}
+.CI2{
+	margin-right: 10px;
+}
+.CI3{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.CI4{
+	margin-left: 10px;
+}
+.CI5{
+	margin-left: 20px;
+}
+
+.ModelNeg{
+	position: relative;
+ 	top: -370px;
+ 	transition: top 0.5s;
+}
+.ModelNegDesp{
+	position: relative;
+ 	top: -220px;
+}
+.Modelo{
+	color: transparent;
+	transition: color 0.5s;
+}
+.ModeloDesp{
+	color: black;
+}
+.Col1{
+	background-color: rgb(236, 236, 236);
+	margin-left: -30px;
+}
+.Col2{
+	background-color: rgb(236, 236, 236);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.Col3{
+	background-color: rgb(236, 236, 236);
+	margin-right: -30px;
+}
+.ColGen{
+	height: 800px;
+}
+.ColGen p{
+	padding: 10px;
+	font-size: 20px;
+	text-align: justify;
+	position: relative;
+ 	top: -130px;
+}
+.Imagn{
+	z-index: 1;
+	position: relative;
+ 	top: -80px;
+ 	left: -95px;
+	border: 5px solid rgb(255, 255, 255);
+	box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.2);
+}
+.Enunciado{
+	color: white;
+	z-index: 2;
+	position: relative;
+ 	top: -230px;
+ 	right: -220px;
+	width: 190px;
+	height: 70px;
+	background-color: rgb(0, 0, 0, 0.7);
+	box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.2);
+}
+
+.HojaRuta{
+	position: relative;
+	top: -350px;
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+	background-image: linear-gradient(180deg, rgb(227, 227, 227), #FBFBFB );
+}
+.Fases{
+	position: relative;
+	top: -300px;
+	transition: top 0.5s;
+}
+.FasesDesp{
+	position: relative;
+	top: -50px;
+}
+.Hoj{
+	color: transparent;
+	transition: color 0.3s;
+}
+.HojDesp{
+	color: black;
+}
+.ImagenFase1{
+	z-index: 0;
+	position: relative;
+	top: -80px;
+	right: -50px;
+	height: 450px;
+	width: 1000px;
+	border-bottom-right-radius: 50px;
+	border: 5px solid rgb(255, 255, 255);
+	background-image: url(../img/Desarrollo.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+ 	box-shadow: -10px -10px 7px rgba(0, 0, 0, 0.2), 20px 20px 7px rgba(0, 0, 0, 0.2);
+}
+.ImagenFase2{
+	background-image: url(../img/MVP.jpg);
+}
+.ImagenFase3{
+	background-image: url(../img/Lanzamiento.jpg);
+}
+.DescripFase1 p::after{
+	padding: 10px;
+	z-index: 1;
+	font-size: 40px;
+	color: rgb(0, 0, 0);
+	content: "1. Fases de Desarrollo";
+	position: relative;
+	top: -20px;
+	left: -290px;
+	border-top-left-radius: 30px;
+	background-color: rgb(255, 255, 255, 0.9);
+	box-shadow: -10px -10px 7px rgba(0, 0, 0, 0.2), 20px 20px 7px rgba(0, 0, 0, 0.2);
+	
+}
+.DescripFase2 p::after{
+	left: -310px;
+	content: "2. MVP de EcoSnap";
+}
+.DescripFase3 p::after{
+	left: -210px;
+	content: "3. Pruebas Beta y Lanzamiento";
+}
+.DescFases{
+	color: white;
+	position: relative;
+	top: -130px;
+	right: -1100px;
+	width: 100px;
+	height: 100px;
+	border-top-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+	border: 4px solid rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0, 0.8);
+	background-image: url(../img/Ico_Desc.png);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+}
+.DescInfor{
+	position: relative;
+	top: -160px;
+	right: -275px;
+}
+.DescFases:hover{
+	background-color: rgb(0, 0, 0);
+}
+
+.Miembros{
+	height: 600px;
+	position: relative;
+	top: -400px;
+	box-shadow: 0px -10px 20px rgb(0,0,0,0.5);
+}
+.ImagenCard{
+	height: 300px;
+	border: 4px solid rgb(255, 255, 255);
+}
+
+#Presentacion{
+	color: rgb(255, 255, 255);
+	font-size: 50px;
+	text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+#SubPresentacion{
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+#Bott1{
+	position: relative;
+ 	right: -40px;
+ 	bottom: -140px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	font-size: 50px;
+	background-color: transparent;
+	transition: background-color 0.5s;
+}
+#Bott2{
+	position: relative;
+ 	left: -30px;
+ 	bottom: -140px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	font-size: 50px;
+	background-color: transparent;
+	transition: background-color 0.5s;
+}
+#Bott1:hover{
+	background-color: rgb(192, 192, 192);
+}
+#Bott2:hover{
+	background-color: rgb(192, 192, 192);
+}
+#HojaRuta{
+	position: relative;
+	top: -200px;
+}
+
