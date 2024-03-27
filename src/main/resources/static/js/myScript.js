@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-const offsetProd = 700;
+const offsetProdNav = 700;
 const elemento = document.querySelector('.navbar');
 window.addEventListener('scroll', () => {
 	const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -30,7 +30,7 @@ const elemento_drop = document.querySelector('.drop');
 const elemento_icono = document.querySelector('.icono');
 window.addEventListener('scroll', () => {
 	const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    if (scrollTop > offsetProd) {
+    if (scrollTop > offsetProdNav) {
         elemento_nombre.classList.add('elemento-cambiado-a');
         elemento_home.classList.add('elemento-cambiado-a');
         elemento_link.classList.add('elemento-cambiado-a');
@@ -45,6 +45,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
+const offsetProd = 400;
 const elemento_producto = document.querySelector('.Prod');
 const elemento_producto_desp = document.querySelector('.Producto');
 window.addEventListener('scroll', () => {
@@ -58,7 +59,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-const offsetMerc = 1450;
+const offsetMerc = 1050;
 const elemento_mercado_desp = document.querySelector('.Mercado');
 const elemento_mc_desp = document.querySelector('.Mc');
 window.addEventListener('scroll', () => {
@@ -83,7 +84,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-const offsetModelNeg = 2400;
+const offsetModelNeg = 2000;
 const elemento_modelo_negocio = document.querySelector('.ModelNeg');
 const elemento_modelo_desp = document.querySelector('.Modelo');
 window.addEventListener('scroll', () => {
@@ -141,7 +142,7 @@ btt2.addEventListener('click', function(event2){
 	}
 });
 
-const offsetFases = 3550;
+const offsetFases = 3150;
 const elemento_fases = document.querySelector('.Fases');
 const elemento_fases_hoj = document.querySelector('.Hoj');
 window.addEventListener('scroll', () => {
@@ -152,6 +153,20 @@ window.addEventListener('scroll', () => {
     } else {
         elemento_fases.classList.remove('FasesDesp');
         elemento_fases_hoj.classList.remove('HojDesp');
+    }
+});
+
+const offsetMiembros = 4100;
+const elemento_miembros = document.querySelector('.MiembEquip');
+const elemento_miemb = document.querySelector('.Miemb');
+window.addEventListener('scroll', () => {
+	const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > offsetMiembros) {
+        elemento_miembros.classList.add('MiembEquipDesp');
+        elemento_miemb.classList.add('MiembDesp');
+    } else {
+        elemento_miembros.classList.remove('MiembEquipDesp');
+        elemento_miemb.classList.remove('MiembDesp');
     }
 });
 
