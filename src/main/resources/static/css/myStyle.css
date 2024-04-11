@@ -190,7 +190,7 @@
 	transition: background-color 0.5s;
 }
 .ArgumentoDesp{
-	background-color: rgb(192, 192, 192);
+	background-color: rgb(255, 255, 255);
 	box-shadow: 0 10px 20px rgb(221, 221, 221), 0 6px 6px rgb(192, 192, 192);
 }
 .TextArg{
@@ -206,7 +206,7 @@
 }
 .LogoArg{
 	position: relative;
- 	top: -5px;
+	bottom: -15px;
 }
 .bt{
 	position: relative;
@@ -390,23 +390,38 @@
 }
 .MiembEquip{
 	position: relative;
-	top: -150px;
+	top: -120px;
 	transition: top 0.5s;
 }
 .MiembEquipDesp{
 	position: relative;
-	top: -1px;
+	top: 100px;
 }
 .Miemb{
 	color: transparent;
-	transition: color 0.3s;
+	transition: color 0.5s;
 }
 .MiembDesp{
 	color: black;
 }
+.BodyCard a{
+	text-decoration: none;
+}
 .ImagenCard{
+	background-image: url(../img/FondoCardFoto.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
 	height: 300px;
 	border: 4px solid rgb(255, 255, 255);
+}
+
+.Footter{
+	background-color: rgb(51, 56, 72);
+	color: rgb(126, 136, 165);
+}
+.FooterLogo{
+	text-size-adjust: 30px;
 }
 
 #Presentacion{
@@ -420,25 +435,31 @@
 	text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 #Bott1{
+	background-image: url(../img/FlechaIzquierda.png);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
 	position: relative;
  	right: -40px;
- 	bottom: -140px;
-	width: 100px;
-	height: 100px;
+ 	bottom: -170px;
+	width: 60px;
+	height: 60px;
 	border-radius: 50%;
 	font-size: 50px;
-	background-color: transparent;
 	transition: background-color 0.5s;
 }
 #Bott2{
+	background-image: url(../img/FlechaDerecha.png);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
 	position: relative;
  	left: -30px;
- 	bottom: -140px;
-	width: 100px;
-	height: 100px;
+ 	bottom: -170px;
+	width: 60px;
+	height: 60px;
 	border-radius: 50%;
 	font-size: 50px;
-	background-color: transparent;
 	transition: background-color 0.5s;
 }
 #Bott1:hover{
